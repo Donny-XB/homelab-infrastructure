@@ -7,6 +7,10 @@ This is a hands-on, investigation-oriented curriculum. Rather than collecting to
 
 See [Complete Learning Curriculum](learning-agenda.md), especially its Linux/network foundations, Blue Team, Red/Purple Team, and Pwnagotchi/Wi-Fi modules. This guide **extends** those tracks; it does not replace them.
 
+## Complementary Cybersecurity Hardware Track
+
+See the [Cybersecurity Hardware & Tooling Curriculum](cybersecurity-hardware-toolkit.md) for hardware-focused Red/Blue/Purple exercises involving Flipper Zero, Proxmark3, RFID/NFC, Pwnagotchi, Wi-Fi Pineapple, RTL-SDR/HackRF, USB Rubber Ducky, O.MG Cable, LAN Turtle, embedded debugging and a cyberdeck. Its equipment is optional, selected only when the underlying protocol and test environment justify it. The **local AI tutor remains the next build**, before cybersecurity labs.
+
 ## Operating rules and progression
 
 - **Authorized scope only.** Offensive labs use explicitly owned or authorized VMs, demo applications, synthetic identities, controlled containers or public training ranges with permission. No scans, captures or tests against neighbors or third parties.
