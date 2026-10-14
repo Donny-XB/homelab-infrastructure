@@ -228,6 +228,40 @@ For each module, record four things in GitHub:
 
 **Deliverables:** Hardware/firmware notes, authorized-scope checklist, capture validator, inventory and reports, detection rules, privacy review and wireless hardening scorecard.
 
+## Advanced Cybersecurity Specializations — 12 Additional Modules (after local AI)
+
+**Full practical syllabus:** [Red, Blue, and Purple Team Advanced Specializations](red-blue-purple-specializations.md). This adds explicit learning objectives, realistic test labs, recommended tools, deliverables, pass criteria, and a shared investigation capstone. Existing Tracks 4–6 remain the foundational Blue, Red/Purple, and Pwnagotchi/Wi-Fi curriculum; the following modules build on them.
+
+| Module | Specialty | Team / emphasis |
+| --- | --- | --- |
+| A1 | Threat Hunting | Blue — proactive hypothesis-driven investigations |
+| A2 | Adversary Emulation | Red / Purple — authorized MITRE ATT&CK simulations |
+| A3 | Detection Engineering | Blue — Sigma, SIEM rules, alert quality and testing |
+| A4 | Digital Forensics & Incident Response (DFIR) | Blue — evidence, timelines, triage and recovery |
+| A5 | Malware Analysis & Reverse Engineering | Blue / Research — benign sample analysis, Ghidra, YARA |
+| A6 | Active Directory & Identity Security | Red / Blue — Kerberos, policies, accounts, logging |
+| A7 | Web & API Security Testing | Red / Blue — OWASP methodology on isolated apps |
+| A8 | Cloud Security | Red / Blue — AWS IAM, cloud logging, least privilege |
+| A9 | Deception Engineering | Blue — isolated honeypots and high-signal alerts |
+| A10 | Cyber Threat Intelligence (CTI) | Blue / Purple — TTPs, source confidence, detection ideas |
+| A11 | DevSecOps & Supply Chain Security | Red / Blue — scanning, SBOM, secure CI/CD |
+| A12 | Breach & Attack Simulation (BAS) | Purple — recurring attack/detection validation |
+
+**Priority once the local AI tutor and lab isolation are ready:** A1 Threat Hunting, A2 Adversary Emulation, A3 Detection Engineering, A4 DFIR, and A6 Active Directory & Identity Security.
+
+**Formal methodologies to study:** MITRE ATT&CK and D3FEND; NIST SP 800-115 and NIST CSF; OWASP WSTG; hypothesis-driven hunting; threat intelligence / Pyramid of Pain; ATT&CK Navigator; repeatable detection-as-code and Purple Team feedback loops. Use [the detailed syllabus](red-blue-purple-specializations.md) for references and lab assessments.
+
+**Integrated investigative capstone:**
+
+1. **Red Team:** Safely simulate a defined ATT&CK-mapped technique on an owned isolated VM.
+2. **Blue Team:** Record and correlate defensive telemetry; test detection coverage.
+3. **Threat Hunting:** Investigate missed behavior independently using hypotheses and baselines.
+4. **DFIR:** Reconstruct an evidence-based timeline from training artifacts.
+5. **Purple Team:** Improve a control/detection, retest, and document before/after evidence.
+6. **Optional CTI/BAS/AI:** Connect public reporting, repeated validation and local AI-assisted study.
+
+All lab exercises stay scoped, consent-based and isolated from household services. This curriculum is **planned**, not work already completed. The **local AI tutor stays the next project**.
+
 ## Track 7 — Privacy, Personal Security and Self-Hosting
 
 **Purpose:** Improve control over personal data and locally hosted services.
