@@ -2,6 +2,15 @@
 
 This roadmap prioritizes practical, fun projects while building deeper infrastructure, automation, security, RF, and AI skills.
 
+## Current Project Sequence (updated 2026-10-14)
+
+1. **Completed milestone:** Raspberry Pi 5 NAS with OpenMediaVault 8, SMB shares, Docker and remotely accessible Plex. See [build log](build-log-2026-10-14-nas-plex.md).
+2. **Next priority:** Run a fully local AI assistant on the Dell OptiPlex 7060 to tutor cybersecurity concepts and prepare authorized future lab exercises. Choose the runtime/model after inspecting the Dell's actual hardware. Set up only the virtualization/platform infrastructure the AI needs.
+3. **After local AI works:** Build isolated cybersecurity VMs and begin blue-team, red-team, and purple-team studies, including the planned wireless/RF topics.
+4. **As resources permit:** Acquire an independent backup drive, verify restores, and revisit email alerts. Other automation, privacy, self-hosting and hardware projects remain on the roadmap but do not block the local AI milestone.
+
+The phases below are **topic buckets**, not strict chronological prerequisites; the current sequence above takes precedence.
+
 ## Phase 1 — Core Home Infrastructure
 
 - Install and learn Proxmox VE on the Dell OptiPlex 7060
@@ -40,7 +49,10 @@ This roadmap prioritizes practical, fun projects while building deeper infrastru
 - Build an offline knowledge server
 - Practice backup and disaster recovery
 
-## Phase 5 — Local AI and Agents
+## Phase 5 — Local AI and Agents (moved forward as immediate next project)
+
+- First deliver a private, offline-capable cybersecurity tutoring assistant before pursuing lab attack/detection training.
+- Keep inference off the Raspberry Pi NAS when possible; prefer the Dell OptiPlex 7060 after checking hardware resources.
 
 - Run a local LLM where practical
 - Build a read-only homelab status agent
