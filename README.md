@@ -30,7 +30,7 @@ After the AI assistant is usable, proceed to the isolated blue-team/red-team/pur
 The [**expanded Techie learning curriculum**](docs/learning-agenda.md) now includes **17 hands-on tracks (0–16)**, each with learning objectives, exercises, practical deliverables, and progress checkpoints.
 
 - **Foundation and immediate next:** Completed Pi-NAS/Plex build, **fully local AI cybersecurity tutor on the Dell**, Linux/networking/virtualization, Python and automation.
-- **Cybersecurity:** Blue-team monitoring and incident response; isolated red-team and purple-team exercises; dedicated **Pwnagotchi/Wi-Fi security** (authorized capture auditing, Kismet/Wireshark, Python plugins, wireless defense).
+- **Cybersecurity:** Blue-team monitoring and incident response; isolated red-team and purple-team exercises; dedicated **Pwnagotchi/Wi-Fi security** (authorized capture auditing, Kismet/Wireshark, Python plugins, wireless defense). See the [12 advanced Red/Blue/Purple Team modules and investigation capstone](docs/red-blue-purple-specializations.md): threat hunting, adversary emulation, detection engineering, DFIR, malware research, AD/identity, web/API, cloud, deception, CTI, DevSecOps and BAS.
 - **Self-hosting and physical technology:** Privacy, backups, home automation/Ring, smart access, IoT and local AI agents.
 - **RF and hardware:** SDR fundamentals, weather satellite reception, surveillance/ALPR technical awareness, strictly contained RF interference/resilience labs, RF red/blue/purple tests, cyberdeck/Flipper/Proxmark/embedded firmware, and a future mission-control dashboard.
 
