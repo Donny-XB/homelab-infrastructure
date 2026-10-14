@@ -36,6 +36,10 @@ The [**expanded Techie learning curriculum**](docs/learning-agenda.md) now inclu
 
 The topics are an interest-driven playground rather than a fixed study timetable. **Local AI precedes the cybersecurity lab curriculum**, and independent NAS backup remains deferred until a separate physical drive is available.
 
+## Cybersecurity Hardware & Field Toolkit
+
+The [**Cybersecurity Hardware & Tooling Curriculum**](docs/cybersecurity-hardware-toolkit.md) covers **Flipper Zero, Proxmark3, Pwnagotchi, WiFi Pineapple, HackRF, RTL-SDR, Wi-Fi monitoring, USB Rubber Ducky, O.MG Cable, LAN Turtle, Bus Pirate, JTAG/firmware tooling, ESP32 and cyberdecks**. It maps each optional tool to protocol fundamentals, authorized hands-on labs, Blue/Red/Purple exercises, and documented checkpoints. Hardware learning follows the local AI milestone and is **not** an equipment purchase commitment.
+
 ## Additional Goals
 
 - Prepare the Dell OptiPlex for virtualization and lab VMs (Proxmox VE if suitable).
