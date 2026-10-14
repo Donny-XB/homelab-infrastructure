@@ -2,6 +2,8 @@
 
 ## Next Project — Local Cybersecurity Tutor
 
+This project is **Track 1** of the [complete Techie homelab curriculum](../docs/learning-agenda.md), ahead of all cybersecurity lab exercises. That curriculum also documents the full Pwnagotchi/Wi-Fi, blue/red/purple, RF/SDR, privacy, home automation and embedded-hardware plan.
+
 **Priority as of 2026-10-14:** Complete the local AI assistant **before** beginning the cybersecurity training labs. NAS and Plex are now operational on the Raspberry Pi 5.
 
 - **Compute target:** Dell OptiPlex 7060, separate from NAS workloads.
