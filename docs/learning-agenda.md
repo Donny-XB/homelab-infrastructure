@@ -404,6 +404,8 @@ All lab exercises stay scoped, consent-based and isolated from household service
 
 ## Track 14 — Wireless, Embedded Hardware and Cyberdeck
 
+**Dedicated hands-on hardware syllabus:** [Cybersecurity Hardware & Tooling Curriculum](cybersecurity-hardware-toolkit.md). Includes Flipper Zero, Proxmark3, ChameleonUltra, Pwnagotchi, Wi-Fi monitoring adapters, WiFi Pineapple, RTL-SDR, HackRF/PortaPack, tinySA, YARD Stick One, USB Rubber Ducky, O.MG Cable, LAN Turtle, Bus Pirate, logic analyzers, USB-UART, JTAG tools, ChipWhisperer, ESP32, and cyberdecks. Hardware selections are **planned options, not an owned-equipment inventory**, and this branch does **not** supersede the local AI tutor priority.
+
 **Purpose:** Learn the interaction between firmware, digital interfaces, wireless protocols and physical devices.
 
 **Study**
