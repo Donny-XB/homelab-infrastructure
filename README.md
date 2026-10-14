@@ -25,6 +25,17 @@ The preferred AI host is the Dell OptiPlex 7060 rather than the Raspberry Pi, wh
 
 After the AI assistant is usable, proceed to the isolated blue-team/red-team/purple-team learning environments.
 
+## Complete Learning Curriculum
+
+The [**expanded Techie learning curriculum**](docs/learning-agenda.md) now includes **17 hands-on tracks (0–16)**, each with learning objectives, exercises, practical deliverables, and progress checkpoints.
+
+- **Foundation and immediate next:** Completed Pi-NAS/Plex build, **fully local AI cybersecurity tutor on the Dell**, Linux/networking/virtualization, Python and automation.
+- **Cybersecurity:** Blue-team monitoring and incident response; isolated red-team and purple-team exercises; dedicated **Pwnagotchi/Wi-Fi security** (authorized capture auditing, Kismet/Wireshark, Python plugins, wireless defense).
+- **Self-hosting and physical technology:** Privacy, backups, home automation/Ring, smart access, IoT and local AI agents.
+- **RF and hardware:** SDR fundamentals, weather satellite reception, surveillance/ALPR technical awareness, strictly contained RF interference/resilience labs, RF red/blue/purple tests, cyberdeck/Flipper/Proxmark/embedded firmware, and a future mission-control dashboard.
+
+The topics are an interest-driven playground rather than a fixed study timetable. **Local AI precedes the cybersecurity lab curriculum**, and independent NAS backup remains deferred until a separate physical drive is available.
+
 ## Additional Goals
 
 - Prepare the Dell OptiPlex for virtualization and lab VMs (Proxmox VE if suitable).
