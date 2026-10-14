@@ -1,4 +1,16 @@
-# AI Agents
+# Local AI Assistant and Agents
+
+## Next Project — Local Cybersecurity Tutor
+
+**Priority as of 2026-10-14:** Complete the local AI assistant **before** beginning the cybersecurity training labs. NAS and Plex are now operational on the Raspberry Pi 5.
+
+- **Compute target:** Dell OptiPlex 7060, separate from NAS workloads.
+- **First check:** Confirm actual CPU, RAM, GPU, and free storage before selecting runtime, quantization, or model.
+- **Function:** Private, locally running tutoring assistant for cybersecurity learning, explanations, quizzes, and authorized lab planning; prefer local notes and documentation for retrieval.
+- **Architecture:** Start with local chat/RAG; add carefully permissioned tools only if useful, with explicit approval for changes.
+- **Offline goal:** After downloading and preparing required software/models, normal tutoring should not require a cloud API.
+- **Acceptance test:** An interactive session answers study questions, references local notes, and remains available with outside internet disconnected.
+
 
 This section tracks AI-agent experiments for the homelab.
 
@@ -20,7 +32,7 @@ Read system health from Proxmox, the NAS, Docker services, and Home Assistant.
 Interact with Home Assistant through allowlisted actions and summarize Ring/Home Assistant events.
 
 ### Media Agent
-Help manage Jellyfin and Immich metadata, duplicates, and storage growth.
+Help manage the currently running Plex library and possible future Jellyfin/Immich metadata, duplicates, and storage growth.
 
 ### Privacy Agent
 Track privacy tasks without storing sensitive secrets in GitHub.
