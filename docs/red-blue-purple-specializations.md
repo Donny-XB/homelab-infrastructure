@@ -1,6 +1,6 @@
 # Techie Cybersecurity — Advanced Red, Blue, and Purple Team Specializations
 
-**Status:** Planned curriculum expansion · 2026-10-14  
+**Status:** Planned curriculum expansion · learning priorities updated 2026-10-25  
 **Sequence:** Build the offline-capable AI cybersecurity tutor on the Dell OptiPlex 7060 **first**. The modules here begin after that milestone and can be explored in any order that fits the lab's resources and the user's interests.
 
 This is a hands-on, investigation-oriented curriculum. Rather than collecting tools, each module asks: **What am I trying to understand? What can I observe? How would I verify it? How would I improve a system?**
@@ -38,7 +38,16 @@ See the [Cybersecurity Hardware & Tooling Curriculum](cybersecurity-hardware-too
 | A11 | DevSecOps & Software Supply Chain | Red / Blue | Secure sample CI pipeline and SBOM |
 | A12 | Breach & Attack Simulation (BAS) | Purple | Reproducible detection validation scorecard |
 
-**Priority cluster (after the AI milestone):** A1 Threat Hunting, A2 Adversary Emulation, A3 Detection Engineering, A4 DFIR, and A6 Active Directory & Identity Security. Other modules are elective extensions.
+**Updated depth priorities (2026-10-25):** This detailed syllabus is a reference library, **not twelve mandatory deep courses**. The [master depth matrix](learning-agenda.md#personalized-cybersecurity-learning-depths-updated-2026-10-25) is authoritative.
+
+- **Go deep:** A1 Threat Hunting, A2 Adversary Emulation within Red Team, A4 DFIR, A5 Malware Analysis & Reverse Engineering (**later**, after isolated analysis infrastructure), A7 Web/API Security, and A10 CTI/OSINT. A3 Detection Engineering is developed deeply **as a practical part of hunting and defense**, rather than a disconnected prerequisite. Network security/reconnaissance and AI/LLM security are also deep tracks in the master curriculum.
+- **Working knowledge:** RF/SDR/wireless and hardware/embedded are covered by the master and hardware guides, with short demos rather than all advanced extensions.
+- **Just explore:** A8 Cloud Security — one small authorized IAM/log analysis experiment; no large cloud certification path.
+- **Supporting, as needed:** A6 identity/AD, A9 deception, A11 DevSecOps, A12 BAS. Use these when they solve a real question in a deep-track project; don't require their whole syllabus.
+
+**Language timing:** Python early for network automation/analysis; Bash and PowerShell in the corresponding operating-system labs; HTML/CSS/JavaScript, PHP and SQL during actual web/API builds and security tests; **C → C++ → Assembly only when the later malware/reversing lab needs them**. Java/TypeScript remain optional context-driven additions.
+
+**Unit of progress:** A real homelab use case → small safe build → observe evidence → test in an authorized isolated scope → defend/remediate → document → decide whether to deepen.
 
 ---
 
@@ -324,9 +333,13 @@ Also study the **Pyramid of Pain**, detection lifecycle, and a **hypothesis-driv
 
 **Stage B — First investigations (recommended):** A1 Threat Hunting → A3 Detection Engineering → A2 Adversary Emulation → A4 DFIR. These can be alternated rather than completed linearly.
 
-**Stage C — Expand the environment:** A6 Active Directory, A7 Web/API Security and A12 BAS.
+**Stage C — Chosen deep tracks:** A7 Web/API Security (build → test → fix with HTML/JS/PHP/SQL), A10 CTI/OSINT (public research → hunt hypothesis), and ORACLE AI security (prompt-injection/tool-boundary tests). Bring in A6 identity and A12 BAS only when necessary.
 
-**Stage D — Electives:** A5 Malware Analysis, A8 Cloud Security, A9 Deception, A10 CTI and A11 DevSecOps.
+**Stage D — Later deep research:** A5 Malware Analysis & Reverse Engineering, deliberately after VM isolation, snapshots, and relevant OS/binary foundations; introduce C, then C++, then Assembly just in time. This is a selected specialization, **not a throwaway elective**.
+
+**Stage E — Breadth and integration:** Short wireless/SDR/embedded working-knowledge demonstrations; one A8 cloud IAM/logging exploration; optional A9/A11 only if useful.
+
+**Stage F — Capstone:** One Red → Blue → Hunt → DFIR → Purple investigation; repeat or extend with web/CTI/AI security scenarios.
 
 **Stage E — Capstone:** One Red → Blue → Hunt → DFIR → Purple investigation; repeat with new scenarios or the separately planned wireless/RF curriculum.
 
@@ -342,4 +355,4 @@ Also study the **Pyramid of Pain**, detection lifecycle, and a **hypothesis-driv
 
 ---
 
-> **Return point:** The next real build is still **the local AI cybersecurity tutor on the Dell**. This guide records what to study and build *after* the tutor is running, without creating an obligation to work on it today.
+> **Return point:** Maintain ORACLE and the isolated THE FORGE lab as prerequisites; begin hands-on networking/reconnaissance and threat-hunting work when the environment is ready. No fixed study calendar, and no need to master every supporting topic before building.
