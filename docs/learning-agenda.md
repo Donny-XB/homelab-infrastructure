@@ -1,6 +1,6 @@
 # Techie Homelab — Complete Learning Curriculum
 
-**Living roadmap | Expanded 2026-10-14**  
+**Living roadmap | Expanded 2026-10-14 | Learning depth updated 2026-10-25**  
 **Philosophy:** This is a playground of hands-on projects, not a rigid productivity schedule. Follow curiosity, take breaks, and record what was learned. The suggested progression gives each experiment a useful foundation without requiring a strict calendar.
 
 > **Current order matters:** The Raspberry Pi NAS/Plex milestone is complete. **Build the fully local AI cybersecurity tutor next.** Only then move into the cybersecurity lab exercises. Other tracks are optional branches and can be revisited freely.
@@ -18,6 +18,62 @@
 | Local AI cybersecurity tutor on Dell OptiPlex 7060 | **NEXT** | Verify hardware specs, then select appropriate runtime and model |
 | Cybersecurity virtual machines and lab exercises | **Planned after local AI** | Start with a contained lab network |
 | Home automation, privacy, SDR/RF, satellite, hardware hacking and mission control | **Exploration tracks** | No fixed deadlines |
+
+## Personalized cybersecurity learning depths (updated 2026-10-25)
+
+**The rule: build for a real use case, learn only the supporting theory/language needed now, and specialize by interest.** These are priorities, not deadlines or a requirement to master every tool. The NAS, ORACLE, THE FORGE, REEL and security lab provide a continuous set of practical use cases.
+
+| Cybersecurity subject | Depth | Expected hands-on outcome |
+| --- | --- | --- |
+| Network security & reconnaissance | **GO DEEP** | Map and segment an owned lab, explain packet flow, scan authorized services, analyze PCAPs and assess changes |
+| Threat hunting & digital forensics / incident response (DFIR) | **GO DEEP** | Establish telemetry, hunt hypotheses, reconstruct timelines, preserve evidence and explain conclusions |
+| Red Team / penetration testing | **GO DEEP** | Perform scoped tests of isolated targets, write findings, remediate and retest with defender telemetry |
+| Malware analysis & reverse engineering | **GO DEEP — LATER** | Build a separately isolated analysis range, analyze safe training executables, inspect binaries and write YARA/behavior reports |
+| Web application & API security | **GO DEEP** | Build a small app/API, test intentionally vulnerable training apps, fix vulnerabilities and verify remediation |
+| OSINT & cyber threat intelligence | **GO DEEP** | Investigate public information, assess source confidence, map TTPs, and turn intelligence into hunt ideas |
+| AI security & LLM red teaming | **GO DEEP** | Threat-model ORACLE, safely test prompt injection/tool permissions, log results and validate mitigations |
+| RF / SDR / wireless security | **WORKING KNOWLEDGE** | Complete a scoped Pwnagotchi/Wi-Fi monitoring exercise and a lawful receive-only SDR mini-project |
+| Hardware & embedded security | **WORKING KNOWLEDGE** | Examine an owned ESP32/firmware or serial-interface demo and document one security implication |
+| Cloud security | **JUST EXPLORE** | Do one small sandbox IAM/logging/misconfiguration exercise; decide later whether to go deeper |
+
+**How much is enough?**
+- **GO DEEP:** Revisit the subject through multiple connected projects; understand principles, troubleshoot independently, compare offensive/defensive evidence, and publish a substantial sanitized case study. Depth is practical, not encyclopedic.
+- **WORKING KNOWLEDGE:** Learn core vocabulary and operating principles; complete one or two manageable, safe demos; record what interests you. More equipment or further study is optional.
+- **JUST EXPLORE:** Get a short orientation and one small practical exercise; keep a brief reflection. No large deployment or full certification track unless curiosity changes.
+- Supporting disciplines (identity/Active Directory, detection engineering, Purple Team methods, DevSecOps, etc.) enter **only as needed** for the seven deeper specializations. Their presence in the detailed reference syllabus does not make all modules mandatory.
+- After any first demo, mark **Continue / Park / Promote**. Curiosity can move any subject into deeper study later.
+
+### Just-in-time languages and technical tools
+
+| Actual project/use case | Learn at that point — not months before |
+| --- | --- |
+| COMMS / THE FORGE / first network investigations | Linux CLI, **Packet Tracer**, Wireshark, **Python**, essential Bash, Git; add PowerShell while administering Windows |
+| SENTINEL threat hunting / DFIR | Python parsing and regex, Windows Event Logs, **PowerShell**, Sysmon, Sigma, SQL-like queries as required |
+| REEL or another web dashboard/API | HTTP, JSON, REST, **HTML/CSS/JavaScript**, **SQL**; introduce **PHP** through a small server-side app or isolated web-security exercise when useful |
+| SPECTRE web/API and authorized penetration-testing labs | JavaScript, PHP, SQL, Burp Suite, browser developer tools, authentication/session handling; write defensive fixes too |
+| OSINT / CTI | Python automation, public APIs, JSON, data cleaning, provenance and source evaluation |
+| ORACLE AI-security labs | Python, model/tool APIs, RAG boundaries, prompt injection, role/permission enforcement and audit logging |
+| **Later** malware/reverse-engineering lab | **C fundamentals → C++ → x86/x64 Assembly** as needed; debugging, Ghidra, binary formats and isolated analysis techniques |
+| RF / hardware mini-labs | Python for signal/data work; C/firmware concepts only if the chosen owned hardware project actually requires them |
+| Cloud taste test | Basic IAM, cloud logging and minimal CLI/API concepts; no commitment to a full cloud curriculum |
+
+**Other languages:** Java is an elective if Android/Java enterprise analysis becomes a real project; TypeScript is optional for larger JS apps. Do not split each language into a separate prerequisite course. The default cycle is **Build → Understand → Observe → Test in authorized scope → Defend → Document → Decide whether to deepen**.
+
+### Practical cybersecurity project sequence (flexible, not a timetable)
+
+1. **Foundation through real services:** Maintain COMMS (NAS/Plex), ORACLE (AI tutor), THE FORGE (Proxmox and automation); document networking, Linux/Windows, backups and isolation. Avoid breaking household services for experiments.
+2. **Network reconnaissance:** Use Packet Tracer plus an isolated/authorized network, Python and Wireshark; deliver a topology, service inventory and traffic analysis.
+3. **SENTINEL: hunt + investigate:** Bring in test endpoint logs, Sysmon/Wazuh, a hunt hypothesis, detection rule, and forensic timeline; learn PowerShell when the Windows evidence demands it.
+4. **SPECTRE + web security:** Practice scoped adversary simulation and a tiny website/API with HTML/JavaScript/PHP/SQL; verify vulnerabilities and fixes inside a disposable lab.
+5. **OSINT / CTI:** Research public threat reporting, establish source confidence and link a technique to a hypothesis and detection within SENTINEL.
+6. **ORACLE security:** Test a deliberately limited local AI tool workflow for prompt injection, unsafe tool access and data leakage; then enforce mitigations and retest.
+7. **Malware/reverse engineering — deliberately later:** First prepare strong VM isolation and rollback; then introduce C/C++/Assembly using harmless training binaries before any higher-risk specimen work.
+8. **Breadth samplers:** Fit wireless/SDR and embedded mini-projects around interests; explore cloud IAM/logs once. Expand only when a use case earns it.
+9. **Integrated capstone:** Red test → Blue detection → Hunt → DFIR → remediation/retest → sanitized write-up. ORACLE may tutor and explain evidence, never autonomously run privileged/offensive actions.
+
+These numbered stages describe sensible dependencies, **not** fixed dates or a gate preventing curiosity-driven side projects. Keep the detailed tracks below as reference shelves; only pull down what the current experiment needs.
+
+---
 
 ## Curriculum method
 
@@ -117,7 +173,7 @@ For each module, record four things in GitHub:
 
 ## Track 3 — Python, Bash, APIs and Practical Automation
 
-**Purpose:** Turn repetitive infrastructure work into understandable, testable code.
+**Purpose:** Turn repetitive infrastructure work into understandable, testable code. **Python is the recurring primary language; learn Bash, PowerShell and other languages only when the current project needs them.**
 
 **Study**
 - Python syntax, types, functions, modules, virtual environments, packages, exceptions, files, pathlib, JSON/CSV, regular expressions, argparse, logging and tests.
@@ -183,7 +239,7 @@ For each module, record four things in GitHub:
 
 ## Track 6 — Pwnagotchi and Wi-Fi Security: Red / Blue / Purple
 
-**Dedicated wireless security track, explicitly planned.** Start only when lab scope and isolated/authorized targets are ready.
+**Working-knowledge sampler.** The detailed sections below are a reference menu, **not** a checklist to complete in full. Aim for one authorized Wi-Fi/Pwnagotchi observation and one defensive analysis or mini-tool; expand only if interest grows. Start only when lab scope and isolated/authorized targets are ready.
 
 ### A. Foundations and hardware
 - Pwnagotchi architecture, appropriate device/adapter selection, firmware, power, display and safe configuration.
@@ -247,7 +303,7 @@ For each module, record four things in GitHub:
 | A11 | DevSecOps & Supply Chain Security | Red / Blue — scanning, SBOM, secure CI/CD |
 | A12 | Breach & Attack Simulation (BAS) | Purple — recurring attack/detection validation |
 
-**Priority once the local AI tutor and lab isolation are ready:** A1 Threat Hunting, A2 Adversary Emulation, A3 Detection Engineering, A4 DFIR, and A6 Active Directory & Identity Security.
+**Personalized priority:** Go deep on A1 Threat Hunting, A2 adversary emulation as part of Red Team, A3 detection engineering as support for hunting, A4 DFIR, A5 malware/reversing **later**, A7 web/API security and A10 CTI/OSINT. A6 identity and A12 BAS are learned as needed for real lab projects. A8 cloud is an **introductory taste**, while A9/A11 are optional supporting modules. **AI security** and **network security/reconnaissance** are equally high-priority deep specializations covered in the personalized matrix above and Tracks 1–5.
 
 **Formal methodologies to study:** MITRE ATT&CK and D3FEND; NIST SP 800-115 and NIST CSF; OWASP WSTG; hypothesis-driven hunting; threat intelligence / Pyramid of Pain; ATT&CK Navigator; repeatable detection-as-code and Purple Team feedback loops. Use [the detailed syllabus](red-blue-purple-specializations.md) for references and lab assessments.
 
@@ -304,7 +360,7 @@ All lab exercises stay scoped, consent-based and isolated from household service
 
 ## Track 9 — SDR and RF Fundamentals
 
-**Purpose:** Connect prior signal-analysis interests to modern RF and software-defined radio.
+**Purpose:** Gain working knowledge of RF and software-defined radio through a small lawful receive-only project. The detailed study points are optional reference material, not required mastery.
 
 **Study**
 - Electromagnetic spectrum, wavelength/frequency, sampling, IQ data and waterfalls.
@@ -406,7 +462,7 @@ All lab exercises stay scoped, consent-based and isolated from household service
 
 **Dedicated hands-on hardware syllabus:** [Cybersecurity Hardware & Tooling Curriculum](cybersecurity-hardware-toolkit.md). Includes Flipper Zero, Proxmark3, ChameleonUltra, Pwnagotchi, Wi-Fi monitoring adapters, WiFi Pineapple, RTL-SDR, HackRF/PortaPack, tinySA, YARD Stick One, USB Rubber Ducky, O.MG Cable, LAN Turtle, Bus Pirate, logic analyzers, USB-UART, JTAG tools, ChipWhisperer, ESP32, and cyberdecks. Hardware selections are **planned options, not an owned-equipment inventory**, and this branch does **not** supersede the local AI tutor priority.
 
-**Purpose:** Learn the interaction between firmware, digital interfaces, wireless protocols and physical devices.
+**Purpose:** Gain working knowledge of firmware, interfaces, wireless protocols and physical devices through one or two owned-hardware demos. Treat the full tooling list as optional exploration.
 
 **Study**
 - Microcontroller/embedded Linux fundamentals, UART, SPI, I2C, JTAG, flash storage and firmware images.
