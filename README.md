@@ -27,14 +27,16 @@ After the AI assistant is usable, proceed to the isolated blue-team/red-team/pur
 
 ## Complete Learning Curriculum
 
-The [**expanded Techie learning curriculum**](docs/learning-agenda.md) now includes **17 hands-on tracks (0–16)**, each with learning objectives, exercises, practical deliverables, and progress checkpoints.
+The [**expanded Techie learning curriculum**](docs/learning-agenda.md) includes **17 hands-on tracks (0–16)**, each with learning objectives, exercises, practical deliverables, and progress checkpoints. **Learning depth and just-in-time language sequencing updated October 25, 2026.**
 
 - **Foundation and immediate next:** Completed Pi-NAS/Plex build, **fully local AI cybersecurity tutor on the Dell**, Linux/networking/virtualization, Python and automation.
 - **Cybersecurity:** Blue-team monitoring and incident response; isolated red-team and purple-team exercises; dedicated **Pwnagotchi/Wi-Fi security** (authorized capture auditing, Kismet/Wireshark, Python plugins, wireless defense). See the [12 advanced Red/Blue/Purple Team modules and investigation capstone](docs/red-blue-purple-specializations.md): threat hunting, adversary emulation, detection engineering, DFIR, malware research, AD/identity, web/API, cloud, deception, CTI, DevSecOps and BAS.
 - **Self-hosting and physical technology:** Privacy, backups, home automation/Ring, smart access, IoT and local AI agents.
 - **RF and hardware:** SDR fundamentals, weather satellite reception, surveillance/ALPR technical awareness, strictly contained RF interference/resilience labs, RF red/blue/purple tests, cyberdeck/Flipper/Proxmark/embedded firmware, and a future mission-control dashboard.
 
-The topics are an interest-driven playground rather than a fixed study timetable. **Local AI precedes the cybersecurity lab curriculum**, and independent NAS backup remains deferred until a separate physical drive is available.
+**Personalized learning depth:** **Go deep** on network security/reconnaissance, threat hunting/DFIR, Red Team/penetration testing, malware analysis/reversing (later), web/API security, OSINT/CTI, and AI security. **Working knowledge** in RF/SDR/wireless and embedded/hardware. **Just explore** cloud security. Learn each supporting language only when a real project requires it: Python first, JS/PHP/SQL with web work, PowerShell for Windows, and C/C++/Assembly later with malware analysis. See the [master learning-depth matrix](docs/learning-agenda.md#personalized-cybersecurity-learning-depths-updated-2026-10-25) and [advanced specialization guide](docs/red-blue-purple-specializations.md).
+
+The topics are an interest-driven playground rather than a fixed study timetable. **Local AI and properly isolated lab infrastructure precede risky cybersecurity exercises**, and independent NAS backup remains deferred until a separate physical drive is available.
 
 ## Cybersecurity Hardware & Field Toolkit
 
